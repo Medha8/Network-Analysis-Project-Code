@@ -1,1 +1,2 @@
 # Network-Analysis-Project-Code
+This code contains the method to take in a pre-processed frmi images and convert it to a graph. It reads the data from the frmi images and then calculates the correlation matrices for each voxels. Then for different threshold values I created a graph. Each node is the voxel and an edge exists between these voxels if the two voxels have correlation coefficient for activation higher than a certain threshold.
